@@ -18,7 +18,6 @@ Technical Task for **Robusta**.
   - Clean Architecture
   - Room data base
   - Retrofit
-  - 
  
  
 
