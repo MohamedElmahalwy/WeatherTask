@@ -54,7 +54,7 @@ class AddWeatherViewModelTest {
     }
 
     @Test
-    fun `insert weather item with all fields, return item added `() = runTest {
+    fun `insert weather item with all fields, return True `() = runTest {
         val weatherItem = WeatherItem(
             "Place Name", "Clear", 237.3,
             100.2, 300.2, 21.2, "image"
