@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">WeatherTask</string>
+
+    <string name="no_internet">Please check your internet connection</string>
+    <string name="network_error">Network error, could get data,please try again!</string>
+    <string name="gallery">Gallery</string>
+    <string name="camera">Camera</string>
+    <string name="choose_photo">Choose photo</string>
+    <string name="choose_method_to_upload_image">choose method to upload image</string>
+    <string name="addweather">Add weather</string>
+    <string name="tempMin">Min temperature:</string>
+    <string name="tempMax">Max temperature:</string>
+    <string name="windSpeed">Wind speed:</string>
+    <string name="sharePhoto">Share photo</string>
+    <string name="history">History</string>
+    <string name="addWeather">Add weather</string>
+    <string name="noHistoryFound">No history found</string>
+
+</resources>

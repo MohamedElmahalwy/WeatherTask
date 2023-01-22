@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:id="@+id/v_loading_dialog_container"
+    android:layout_gravity="center"
+    android:layout_margin="20dp">
+
+
+<!--    <TextView-->
+<!--        android:id="@+id/tv_pleaseWait"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:textSize="16sp"-->
+<!--        android:text="@string/please_wait"-->
+<!--        android:textColor="@color/colorPrimaryDark"-->
+<!--        android:gravity="center"-->
+<!--        android:layout_marginStart="30dp"-->
+<!--        android:layout_marginVertical="10dp" />-->
+
+
+<!--    <LinearLayout-->
+<!--        android:id="@+id/v_loading_dialog"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="50dp"-->
+<!--        android:orientation="horizontal"-->
+<!--        android:gravity="center_vertical">-->
+
+<!--        <ProgressBar-->
+<!--            android:layout_width="30dp"-->
+<!--            android:layout_height="30dp"-->
+<!--            android:id="@+id/progress_bar"-->
+<!--            android:layout_marginStart="30dp"-->
+<!--            android:indeterminateTint="@color/colorAccent" />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/tv_LoadingMessage"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:textSize="14sp"-->
+<!--            android:text="@string/Loading"-->
+    <!--            android:gravity="center"-->
+<!--            android:layout_marginStart="30dp" />-->
+
+
+<!--    </LinearLayout>-->
+    <ProgressBar
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:indeterminateTint="@color/colorPrimary"
+
+        android:id="@+id/progress_bar"
+        android:layout_gravity="center" />
+</LinearLayout>

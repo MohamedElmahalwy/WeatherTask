@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_nav_graph"
+    app:startDestination="@id/weatherHistoryFragment">
+
+
+    <fragment
+        android:id="@+id/weatherHistoryFragment"
+        android:name="com.elmahalwy.weathertask.presentation.component.weatherHistory.WeatherHistoryFragment"
+        android:label="@string/history"
+        tools:layout="@layout/fragment_weather_history" >
+        <action
+            android:id="@+id/action_weatherHistoryFragment_to_addNewWeatherFragment"
+            app:destination="@id/addNewWeatherFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/addNewWeatherFragment"
+        android:name="com.elmahalwy.weathertask.presentation.component.addNewWeather.AddNewWeatherFragment"
+        android:label="@string/addweather"
+        tools:layout="@layout/fragment_add_new_weather" />
+</navigation>
