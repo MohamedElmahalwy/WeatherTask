@@ -16,8 +16,10 @@ Technical Task for **Robusta**.
  Task flow with Mvvm Clean Architecture and this contain.
   - Mvvm
   - Clean Architecture
+  - Navigation component
   - Room data base
   - Retrofit
+  - Unit Test
  
  
 
